@@ -11,7 +11,7 @@ The following components are part of this project:
 
 ## Get started:
 
-Probably the best starting point is [the demo repository](https://github.com/hermitcore/rusty-demo).
+Probably the best starting points are [the demo repository](https://github.com/hermitcore/rusty-demo) or the [tutorial slides](https://hermitcore.github.io/tutorial/#/).
 
 ## Publications
 
