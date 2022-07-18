@@ -5,16 +5,13 @@
 This is all about the Hermitcore unikernel project from the RWTH-Aachen.
 The following components are part of this project:
 
-- [HermitCore](https://github.com/hermitcore/libhermit) - a Unikernel written in C.
-
-  **Note:** This project is depcrecated in favor of RustyHermit
-
+- [HermitCore](https://github.com/hermitcore/libhermit) - a Unikernel written in C. **Note:** This project is depcrecated in favor of RustyHermit.
 - [RustyHermit](https://github.com/hermitcore/rusty-hermit) - rewrite of HermitCore in Rust.
-- [uhyve](https://github.com/hermitcore/uhyve) - a minimal hypervisor for RustyHermit images
+- [uhyve](https://github.com/hermitcore/uhyve) - a minimal hypervisor for RustyHermit images.
 
 ## Get started:
 
-Probably the best starting point is [the demo repositories](https://github.com/hermitcore/rusty-demo)
+Probably the best starting point is [the demo repository](https://github.com/hermitcore/rusty-demo).
 
 ## Publications
 
