@@ -5,8 +5,8 @@
 This is the organization of the Hermit unikernel project from RWTH Aachen University.
 These are the main components of the project:
 
+- [hermitcore/kernel](https://github.com/hermitcore/kernel) is the Hermit kernel.
 - [hermitcore/hermit-rs](https://github.com/hermitcore/hermit-rs) provides Rust application support.
-- [hermitcore/kernel](https://github.com/hermitcore/kernel) is the underlying Hermit kernel.
 - [hermitcore/uhyve](https://github.com/hermitcore/uhyve) is a specialized hypervisor for Hermit.
 - [hermitcore/loader](https://github.com/hermitcore/loader) is a bootloader for other platforms such as QEMU.
 
