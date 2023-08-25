@@ -1,17 +1,19 @@
 <img width="100" align="right" src="img/hermitcore_logo.png" />
 
-# HermitCore
+# Hermit
 
-This is all about the Hermitcore unikernel project from the RWTH-Aachen.
-The following components are part of this project:
+This is the organization of the Hermit unikernel project from RWTH Aachen University.
+These are the main components of the project:
 
-- [HermitCore](https://github.com/hermitcore/libhermit) - a Unikernel written in C. **Note:** This project is depcrecated in favor of RustyHermit.
-- [RustyHermit](https://github.com/hermitcore/rusty-hermit) - rewrite of HermitCore in Rust.
-- [uhyve](https://github.com/hermitcore/uhyve) - a minimal hypervisor for RustyHermit images.
+- [hermitcore/hermit-rs](https://github.com/hermitcore/hermit-rs) provides Rust application support.
+- [hermitcore/kernel](https://github.com/hermitcore/kernel) is the underlying Hermit kernel.
+- [hermitcore/uhyve](https://github.com/hermitcore/uhyve) is a specialized hypervisor for Hermit.
+- [hermitcore/loader](https://github.com/hermitcore/loader) is a bootloader for other platforms such as QEMU.
 
-## Get started:
+## Quick Start
 
-Probably the best starting points are [the demo repository](https://github.com/hermitcore/rusty-demo) or the [tutorial slides](https://hermitcore.github.io/tutorial/#/).
+- [hermitcore/hermit-rs-template](https://github.com/hermitcore/hermit-rs-template) is a starting point for your Rust application.
+- An introductory presentation is available at [hermitcore.github.io/tutorial](https://hermitcore.github.io/tutorial).
 
 ## Publications
 
