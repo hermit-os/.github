@@ -1,4 +1,4 @@
-<img width="100" align="right" src="img/hermitcore_logo.png" />
+<img width="100" align="right" src="img/Hermit.svg" />
 
 # Hermit
 
