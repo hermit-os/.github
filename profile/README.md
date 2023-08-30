@@ -5,15 +5,15 @@
 This is the organization of the Hermit unikernel project from RWTH Aachen University.
 These are the main components of the project:
 
-- [hermitcore/kernel](https://github.com/hermitcore/kernel) is the Hermit kernel.
-- [hermitcore/hermit-rs](https://github.com/hermitcore/hermit-rs) provides Rust application support.
-- [hermitcore/uhyve](https://github.com/hermitcore/uhyve) is a specialized hypervisor for Hermit.
-- [hermitcore/loader](https://github.com/hermitcore/loader) is a bootloader for other platforms such as QEMU.
+- [hermit-os/kernel](https://github.com/hermit-os/kernel) is the Hermit kernel.
+- [hermit-os/hermit-rs](https://github.com/hermit-os/hermit-rs) provides Rust application support.
+- [hermit-os/uhyve](https://github.com/hermit-os/uhyve) is a specialized hypervisor for Hermit.
+- [hermit-os/loader](https://github.com/hermit-os/loader) is a bootloader for other platforms such as QEMU.
 
 ## Quick Start
 
-- [hermitcore/hermit-rs-template](https://github.com/hermitcore/hermit-rs-template) is a starting point for your Rust application.
-- An introductory presentation is available at [hermitcore.github.io/tutorial](https://hermitcore.github.io/tutorial).
+- [hermit-os/hermit-rs-template](https://github.com/hermit-os/hermit-rs-template) is a starting point for your Rust application.
+- An introductory presentation is available at [hermit-os.github.io/tutorial](https://hermit-os.github.io/tutorial).
 
 ## Publications
 
