@@ -8,7 +8,7 @@ These are the main components of the project:
 - [hermit-os/kernel](https://github.com/hermit-os/kernel) is the Hermit kernel.
 - [hermit-os/hermit-rs](https://github.com/hermit-os/hermit-rs) provides Rust application support.
 - [hermit-os/uhyve](https://github.com/hermit-os/uhyve) is a specialized hypervisor for Hermit.
-- [hermit-os/loader](https://github.com/hermit-os/loader) is a bootloader for other platforms such as QEMU.
+- [hermit-os/loader](https://github.com/hermit-os/loader) is a bootloader for other platforms, such as QEMU.
 
 ## Quick Start
 
