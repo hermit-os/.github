@@ -2,6 +2,8 @@
 
 # Hermit
 
+[![Zulip Badge](https://img.shields.io/badge/chat-hermit-57A37C?logo=zulip)](https://hermit.zulipchat.com/)
+
 This is the organization of the Hermit unikernel project from RWTH Aachen University.
 These are the main components of the project:
 
@@ -25,3 +27,8 @@ A number of scientific publications have been made based on the HermitCore proje
 - S. Lankes et al. - [Exploring Rust for Unikernel Development](https://dl.acm.org/doi/10.1145/3365137.3365395)
 - M. Sung et al. - [Intra-unikernel isolation with Intel memory protection keys](https://dl.acm.org/doi/10.1145/3381052.3381326)
 - S. Lankes et al. - [RustyHermit: A Scalable, Rust-Based Virtual Execution Environment](https://link.springer.com/chapter/10.1007/978-3-030-59851-8_22)
+
+## Contribution
+
+Hermit is being developed here, on [github.com/hermit-os](https://github.com/hermit-os).
+Create your own fork, send us a pull request, and chat with us on [Zulip](https://hermit.zulipchat.com/).
