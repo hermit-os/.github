@@ -154,3 +154,11 @@ Several scientific publications have been made based on the Hermit project:
 
 Hermit is being developed here, on [github.com/hermit-os](https://github.com/hermit-os).
 Create your own fork, send us a pull request, and chat with us on [Zulip](https://hermit.zulipchat.com/).
+
+## Acknowledgments
+
+<p>
+    <img src="profile/EN_fundedbyEU_VERTICAL_RGB_POS.png#gh-light-mode-only" height="250" alt="Funded by the European Union" />
+    <img src="profile/EN_fundedbyEU_VERTICAL_RGB_NEG.png#gh-dark-mode-only" height="250" alt="Funded by the European Union" />
+    <img src="profile/bmbf_internet_in_farbe_en.jpg" height="250" alt="Sponsored by the Federal Ministry of Education and Research" />
+</p>
