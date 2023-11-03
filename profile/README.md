@@ -1,4 +1,4 @@
-<img width="100" align="right" src="img/Hermit.svg" />
+<img width="100" align="right" src="https://raw.githubusercontent.com/hermit-os/.github/main/img/Hermit.svg" />
 
 # Hermit
 
@@ -158,7 +158,7 @@ Create your own fork, send us a pull request, and chat with us on [Zulip](https:
 ## Acknowledgments
 
 <p>
-    <img src="profile/EN_fundedbyEU_VERTICAL_RGB_POS.png#gh-light-mode-only" height="250" alt="Funded by the European Union" />
-    <img src="profile/EN_fundedbyEU_VERTICAL_RGB_NEG.png#gh-dark-mode-only" height="250" alt="Funded by the European Union" />
-    <img src="profile/bmbf_internet_in_farbe_en.jpg" height="250" alt="Sponsored by the Federal Ministry of Education and Research" />
+    <img src="https://media.githubusercontent.com/media/hermit-os/.github/main/profile/EN_fundedbyEU_VERTICAL_RGB_POS.png#gh-light-mode-only" height="250" alt="Funded by the European Union" />
+    <img src="https://media.githubusercontent.com/media/hermit-os/.github/main/profile/EN_fundedbyEU_VERTICAL_RGB_NEG.png#gh-dark-mode-only" height="250" alt="Funded by the European Union" />
+    <img src="https://media.githubusercontent.com/media/hermit-os/.github/main/profile/bmbf_internet_in_farbe_en.jpg" height="250" alt="Sponsored by the Federal Ministry of Education and Research" />
 </p>
