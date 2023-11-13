@@ -21,6 +21,7 @@ These are the main components of the project:
 
 Several scientific publications have been made based on the Hermit project:
 
+- Niklas Eiling, Martin Kröning, Jonathan Klimt, Philipp Fensch, Stefan Lankes, and Antonello Monti. 2023. GPU Acceleration in Unikernels Using Cricket GPU Virtualization. In *Workshops of The International Conference on High Performance Computing, Network, Storage, and Analysis (SC-W 2023), November 12–17, 2023, Denver, CO, USA*. ACM, New York, NY, USA, 8 pages. <https://doi.org/10.1145/3624062.3624236>
 - Jonathan Klimt, Martin Kröning, Stefan Lankes, and Antonello Monti. 2023. On the Challenge of Sound Code for Operating Systems. In *Proceedings of the 12th Workshop on Programming Languages and Operating Systems* (Koblenz, Germany) *(PLOS ’23)*. Association for Computing Machinery, New York, NY, USA, 83–90. <https://doi.org/10.1145/3623759.3624554>
 - Stefan Lankes, Jonathan Klimt, Jens Breitbart, and Simon Pickartz. 2020. RustyHermit: A Scalable, Rust-Based Virtual Execution Environment. In *High Performance Computing*, Heike Jagode, Hartwig Anzt, Guido Juckeland, and Hatem Ltaief (Eds.). Springer International Publishing, Cham, 331–342. <https://doi.org/10.1007/978-3-030-59851-8_22>
 - Mincheol Sung, Pierre Olivier, Stefan Lankes, and Binoy Ravindran. 2020. Intra-Unikernel Isolation with Intel Memory Protection Keys. In *Proceedings of the 16th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments* (Lausanne, Switzerland) *(VEE ’20)*. Association for Computing Machinery, New York, NY, USA, 143–156. <https://doi.org/10.1145/3381052.3381326>
@@ -33,6 +34,24 @@ Several scientific publications have been made based on the Hermit project:
     <summary>BibTeX</summary>
 
 ```bibtex
+@inproceedings{eiling2023,
+    author    = {Eiling, Niklas and Kr\"{o}ning, Martin and Klimt, Jonathan and Fensch, Philipp and Lankes, Stefan and Monti, Antonello},
+    title     = {GPU Acceleration in Unikernels Using Cricket GPU Virtualization},
+    year      = {2023},
+    isbn      = {9798400707858},
+    publisher = {Association for Computing Machinery},
+    address   = {New York, NY, USA},
+    url       = {https://doi.org/10.1145/3624062.3624236},
+    doi       = {10.1145/3624062.3624236},
+    abstract  = {Today, large compute clusters increasingly move towards heterogeneous architectures by employing accelerators, such as GPUs, to realize ever-increasing performance. To achieve maximum performance on these architectures, applications have to be tailored to the available hardware by using special APIs to interact with the hardware resources, such as the CUDA APIs for NVIDIA GPUs. Simultaneously, unikernels emerge as a solution for the increasing overhead introduced by the complexity of modern operating systems and their inability to optimize for specific application profiles. Unikernels allow for better static code checking and enable optimizations impossible with monolithic kernels, yielding more robust and faster programs. Despite this, there is a lack of support for using GPUs in unikernels. Due to the proprietary nature of the CUDA APIs, direct support for interacting with NVIDIA GPUs from unikernels is infeasible, resulting in applications requiring GPUs being unsuitable for deployment in unikernels. We propose using Cricket GPU virtualization to introduce GPU support to the unikernels RustyHermit and Unikraft. To interface with Cricket, we implement a generic library for using ONC RPCs in Rust. With Cricket and our RPC library, unikernels become able to use GPU resources, even when they are installed in remote machines. This way, we enable the use of unikernels for applications that require the high parallel performance of GPUs to achieve manageable execution times.},
+    booktitle = {Proceedings of the SC '23 Workshops of The International Conference on High Performance Computing, Network, Storage, and Analysis},
+    pages     = {1588–1595},
+    numpages  = {8},
+    keywords  = {Heterogeneous Computing, RustyHermit, GPUs, Unikraft, CUDA, Unikernel, High-Performance Computing, Virtualization, Cloud Computing},
+    location  = {Denver, CO, USA},
+    series    = {SC-W '23}
+}
+
 @inproceedings{klimt2023,
     author    = {Klimt, Jonathan and Kr\"{o}ning, Martin and Lankes, Stefan and Monti, Antonello},
     title     = {On the Challenge of Sound Code for Operating Systems},
