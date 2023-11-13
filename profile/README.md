@@ -160,5 +160,7 @@ Create your own fork, send us a pull request, and chat with us on [Zulip](https:
 <p>
     <img src="https://media.githubusercontent.com/media/hermit-os/.github/main/profile/EN_fundedbyEU_VERTICAL_RGB_POS.png#gh-light-mode-only" height="250" alt="Funded by the European Union" />
     <img src="https://media.githubusercontent.com/media/hermit-os/.github/main/profile/EN_fundedbyEU_VERTICAL_RGB_NEG.png#gh-dark-mode-only" height="250" alt="Funded by the European Union" />
+    <img src="https://media.githubusercontent.com/media/hermit-os/.github/main/profile/EN_Funded_by_European_Union_vert_RGB_POS.png#gh-light-mode-only" height="250" alt="Funded by the European Union—NextGenerationEU" />
+    <img src="https://media.githubusercontent.com/media/hermit-os/.github/main/profile/EN_Funded_by_European_Union_vert_RGB_NEG.png#gh-dark-mode-only" height="250" alt="Funded by the European Union—NextGenerationEU" />
     <img src="https://media.githubusercontent.com/media/hermit-os/.github/main/profile/bmbf_internet_in_farbe_en.jpg" height="250" alt="Sponsored by the Federal Ministry of Education and Research" />
 </p>
