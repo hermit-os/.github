@@ -25,6 +25,7 @@ Several scientific publications have been made based on the Hermit project:
 
 <details>
     <summary>Publications</summary>
+
 - Kröning, Martin; Lankes, Stefan; Klimt, Jonathan Christoph; Monti, Antonello; "From Browser to Kernel: Exploring a Lightweight Sandboxed Approach for Unikernel Extensions" in Proceedings of the 13th Workshop on Programming Languages and Operating Systems, in PLOS ’25. New York, NY, USA: Association for Computing Machinery, Oktober 2025, pp. 127–135. <https://doi.org/10.1145/3764860.3768334>    
 - Niklas Eiling, Martin Kröning, Jonathan Klimt, Philipp Fensch, Stefan Lankes, and Antonello Monti. 2023. GPU Acceleration in Unikernels Using Cricket GPU Virtualization. In *Workshops of The International Conference on High Performance Computing, Network, Storage, and Analysis (SC-W 2023), November 12–17, 2023, Denver, CO, USA*. ACM, New York, NY, USA, 8 pages. <https://doi.org/10.1145/3624062.3624236>
 - Jonathan Klimt, Martin Kröning, Stefan Lankes, and Antonello Monti. 2023. On the Challenge of Sound Code for Operating Systems. In *Proceedings of the 12th Workshop on Programming Languages and Operating Systems* (Koblenz, Germany) *(PLOS ’23)*. Association for Computing Machinery, New York, NY, USA, 83–90. <https://doi.org/10.1145/3623759.3624554>
