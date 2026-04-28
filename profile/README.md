@@ -25,7 +25,7 @@ Several scientific publications have been made based on the Hermit project:
 
 <details>
     <summary>Publications</summary>
-
+- Kröning, Martin; Lankes, Stefan; Klimt, Jonathan Christoph; Monti, Antonello; "From Browser to Kernel: Exploring a Lightweight Sandboxed Approach for Unikernel Extensions" in Proceedings of the 13th Workshop on Programming Languages and Operating Systems, in PLOS ’25. New York, NY, USA: Association for Computing Machinery, Oktober 2025, pp. 127–135. <https://doi.org/10.1145/3764860.3768334>    
 - Niklas Eiling, Martin Kröning, Jonathan Klimt, Philipp Fensch, Stefan Lankes, and Antonello Monti. 2023. GPU Acceleration in Unikernels Using Cricket GPU Virtualization. In *Workshops of The International Conference on High Performance Computing, Network, Storage, and Analysis (SC-W 2023), November 12–17, 2023, Denver, CO, USA*. ACM, New York, NY, USA, 8 pages. <https://doi.org/10.1145/3624062.3624236>
 - Jonathan Klimt, Martin Kröning, Stefan Lankes, and Antonello Monti. 2023. On the Challenge of Sound Code for Operating Systems. In *Proceedings of the 12th Workshop on Programming Languages and Operating Systems* (Koblenz, Germany) *(PLOS ’23)*. Association for Computing Machinery, New York, NY, USA, 83–90. <https://doi.org/10.1145/3623759.3624554>
 - Stefan Lankes, Jonathan Klimt, Jens Breitbart, and Simon Pickartz. 2020. RustyHermit: A Scalable, Rust-Based Virtual Execution Environment. In *High Performance Computing*, Heike Jagode, Hartwig Anzt, Guido Juckeland, and Hatem Ltaief (Eds.). Springer International Publishing, Cham, 331–342. <https://doi.org/10.1007/978-3-030-59851-8_22>
@@ -41,6 +41,24 @@ Several scientific publications have been made based on the Hermit project:
     <summary>BibTeX</summary>
 
 ```bibtex
+@inproceedings{kroning_browser_2025,
+	address = {New York, NY, USA},
+	series = {{PLOS} '25},
+	title = {From {Browser} to {Kernel}: {Exploring} a {Lightweight} {Sandboxed} {Approach} for {Unikernel} {Extensions}},
+	isbn = {979-8-4007-2225-7},
+	shorttitle = {From {Browser} to {Kernel}},
+	url = {https://dl.acm.org/doi/10.1145/3764860.3768334},
+	doi = {10.1145/3764860.3768334},
+	abstract = {Library Operating Systems (libOS) are highly efficient because the entire software stack, from the kernel to the application, is compiled, optimized, and linked together. However, in certain scenarios, such as code injection for network packet analysis or adding custom drivers, it is necessary to extend the kernel as needed. The traditional approach of modifying and recompiling the kernel source code can be time-consuming and error-prone.This paper analyzes the possibility of using WebAssembly (Wasm) to extend an operating system kernel at runtime. Wasm is a portable bytecode format that enables fast execution of language-independent code while prioritizing security and portability. Its type system and bounded memory regions effectively prevent unauthorized data access. A prototype module for analyzing network traffic demonstrates the potential, while performance is determined by using standard benchmarks. The performance of the kernel sandbox proved to be about 20 \% slower than running the Wasm code in state-of-the-art runtimes on Linux, which is acceptable for a first proof-of-concept.},
+	urldate = {2026-04-28},
+	booktitle = {Proceedings of the 13th {Workshop} on {Programming} {Languages} and {Operating} {Systems}},
+	publisher = {Association for Computing Machinery},
+	author = {Kröning, Martin and Lankes, Stefan and Klimt, Jonathan and Monti, Antonello},
+	year = {2025},
+	pages = {127--135},
+	file = {Full Text PDF:/home/jonathan/Documents/Research/storage/5U5SCZST/Kröning et al. - 2025 - From Browser to Kernel Exploring a Lightweight Sandboxed Approach for Unikernel Extensions.pdf:application/pdf},
+}
+
 @inproceedings{eiling2023,
     author    = {Eiling, Niklas and Kr\"{o}ning, Martin and Klimt, Jonathan and Fensch, Philipp and Lankes, Stefan and Monti, Antonello},
     title     = {GPU Acceleration in Unikernels Using Cricket GPU Virtualization},
