@@ -11,7 +11,6 @@ These are the main components of the project:
 - [hermit-os/hermit-rs](https://github.com/hermit-os/hermit-rs) provides Rust application support.
 - [hermit-os/hermit-c](https://github.com/hermit-os/hermit-c) provides C application support.
 - [hermit-os/uhyve](https://github.com/hermit-os/uhyve) is a specialized hypervisor for Hermit.
-- [hermit-os/loader](https://github.com/hermit-os/loader) is a bootloader for other platforms, such as QEMU.
 - [hermit-os/hermit-no-std](https://github.com/hermit-os/hermit-no-std) is an example to boot a Hermit application with Rust's standard library.
 
 ## Quick Start
